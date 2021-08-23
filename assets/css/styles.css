@@ -303,7 +303,7 @@ img{
     margin-bottom: var(--mb-2);
 }
 .home__scroll{
-    /* display: none; */
+    display: none;
 }
 
 .home__scroll-button{
@@ -326,9 +326,35 @@ img{
     margin-right: var(--mb-0-25);
 }
 
+.home__scroll-arrow{
+    font-size: 1.25rem;
+}
+
 /*==================== BUTTONS ====================*/
+.button{
+    display:inline-block;
+    background-color: var(--first-color);
+    color:#fff;
+    padding:1rem;
+    border-radius:.5rem;
+    font-weight: var(--font-medium);
+}
 
+.button:hover{
+    coloer:var(--first-color-alt);
+}
 
+.button__icon{
+    font-size: 1.25rem;
+    margin-left:var(--mb-0-5);
+    transition: .3s;
+}
+
+.button--flex{
+    display: inline-flex;
+    align-items: center;
+
+}
 /*==================== ABOUT ====================*/
 
 
