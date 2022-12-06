@@ -10,6 +10,8 @@ if(navToggle){
     navToggle.addEventListener('click',() =>{
         navMenu.classList.add('show-menu');
         console.log('hello show me ');
+       
+
     });
 }
 
